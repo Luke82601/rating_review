@@ -1,0 +1,26 @@
+{
+  "name": "sdc-group-2-reviews",
+  "version": "1.0.0",
+  "description": "SDC Project, Reviews Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HR-SEA16-SDC2/Reviews.git"
+  },
+  "author": "Luke Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HR-SEA16-SDC2/Reviews/issues"
+  },
+  "homepage": "https://github.com/HR-SEA16-SDC2/Reviews#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "newrelic": "^7.4.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0"
+  }
+}

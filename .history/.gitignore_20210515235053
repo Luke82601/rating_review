@@ -102,13 +102,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-reference.js
-
-characteristics.csv
-
-characteristic_reviews.csv
-
-reviews_photos.csv
-
-reviews.csv
