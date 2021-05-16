@@ -18,7 +18,7 @@ const pool = new Pool({
   port: reference.port
 })
 pool.connect()
-.then(console.log('Connected to Postgres!'))
+.then(console.log('Connected to Postgres'))
 .catch(err => console.log(err));
 
 const getAllReviewsById = (req, res) => {
